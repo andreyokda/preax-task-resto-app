@@ -1,0 +1,12 @@
+@import "./header.css";
+
+@import "./main.css";
+
+@import "./footer.css";
+
+body {
+	line-height: 1;
+    background-color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    min-width: 1440px;
+}

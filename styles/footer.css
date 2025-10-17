@@ -1,0 +1,157 @@
+.footer {
+    width: 100%;
+    min-height: 338px;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 64px;
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 80px;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-tel a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F4F4F4;
+    transition: color 0.2s ease;
+}
+
+.info-tel a:hover {
+    color: #A6A6A6;
+}
+
+.info-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6A6A6;
+}
+
+.contacts-socserv {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 284px;
+}
+
+.footer-logo a svg path {
+    transition: fill 0.2s ease;
+}
+
+.footer-logo a:hover svg path {
+    fill: #A6A6A6;
+}
+
+.footer-menu-items{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-menu-items a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4F4;
+    transition: color 0.2s ease;
+}
+
+.footer-menu-items a:hover {
+    color: #A6A6A6;
+}
+
+.footer-link-app {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-year p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6A6A6;
+}
+
+.link-rules {
+    display: flex;
+    gap: 16px;
+}
+
+.link-rules a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6A6A6;
+    transition: color 0.2s ease;
+}
+
+.link-rules a:hover {
+    color: #FFFFFF;
+}
+
+.copyright-pay {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-line hr {
+    height: 1px;
+    background-color: #393939;
+    border: none;
+    margin: 0;
+}
+
+.footer-desc {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6A6A6;
+}
+
+.footer-desc a {
+    color: #A6A6A6;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.footer-desc a:hover {
+    color: #FFFFFF;
+}

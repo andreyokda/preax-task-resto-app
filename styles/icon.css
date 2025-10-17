@@ -1,0 +1,59 @@
+.buttons__image svg path {
+  transition: fill 0.2s ease;
+}
+
+.buttons__image-hover:hover svg path:first-child {
+    fill: #FFFFFF;
+}
+
+.buttons__image-hover:hover svg path:not(:first-child) {
+    fill: #1C1C1C;
+}
+
+.telegram svg path {
+  transition: fill 0.2s ease;
+}
+
+.telegram:hover svg path:nth-child(2) {
+    fill: #FFFFFF;
+}
+
+.vk svg path {
+  transition: fill 0.2s ease;
+}
+
+.vk:hover svg path:nth-child(2) {
+    fill: #FFFFFF;
+}
+
+.whatsapp svg path {
+  transition: fill 0.2s ease;
+}
+
+.whatsapp:hover svg path:nth-child(2) {
+    fill: #FFFFFF;
+}
+
+.appstore a svg path {
+    transition: fill 0.2s ease;
+}
+
+.appstore a:hover svg path {
+    fill: #FFFFFF;
+}
+
+.googleplay a svg path {
+    transition: fill 0.2s ease;
+}
+
+.googleplay-icon-hover {
+    display: none;
+}
+
+.googleplay:hover .googleplay-icon {
+    display: none;
+}
+
+.googleplay:hover .googleplay-icon-hover {
+    display: block;
+}
