@@ -1,12 +1,18 @@
+@import "./reset.css";
+
 @import "./header.css";
 
 @import "./main.css";
 
 @import "./footer.css";
 
+@import "./icon.css";
+
+@import "./responsive.css";
+
 body {
 	line-height: 1;
     background-color: #FFFFFF;
     font-family: "Inter", sans-serif;
-    min-width: 1440px;
+    min-width: auto;
 }

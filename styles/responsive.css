@@ -1,0 +1,263 @@
+/* Планшеты (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+
+    .free-delivery__content p {
+        font-size: 14px;
+    }
+
+    .navigation__items {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation__items a {
+        font-size: 12px;
+    }
+
+    .header-items__contact {
+        gap: 28px;
+    }
+
+    .info__tel a {
+        font-size: 12px;
+    }
+
+    .info__time p {
+        font-size: 10px;
+    }
+
+    .main__wrapper h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .wrapper-items {
+        display: flex;
+        gap: 32px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .info-tel a {
+        font-size: 16px;
+    }
+
+    .info-time {
+        font-size: 12px;
+    }
+
+    .footer-logo svg {
+        width: 230px;
+    }
+
+    .footer-menu-items{
+        gap: 16px;
+    }
+
+    .footer-menu-items a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer-link-app svg {
+        width: 120px;
+    }
+
+    .link-rules li {
+        text-align: center;
+    }
+
+    .link-rules a {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .copyright-pay svg {
+        width: 40px;
+    }
+    
+}
+
+/* Мобильные устройства (480px - 768px) */
+@media screen and (max-width: 768px) {
+
+    .header-items__logo img {
+        width: 100px;
+    }
+
+    .contact__info {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 100px;
+    }
+
+    .footer-logo svg {
+        width: 100px;
+    }
+
+    .footer-menu-items{
+        gap: 16px;
+    }
+
+    .footer-menu-items a {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .footer-link-app svg {
+        width: 80px;
+    }
+
+    .link-rules {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .link-rules li {
+        text-align: center;
+    }
+
+    .link-rules a {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .copyright-year p {
+        font-size: 10px;
+    }
+
+    .copyright-pay svg {
+        width: 40px;
+    }
+    
+}
+
+/* Маленькие мобильные устройства (до 480px) */
+@media screen and (max-width: 480px) {
+
+    .header-items {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 64px;
+        gap: 20px;
+    }
+
+    .cards {
+        width: 300px;
+        height: 170px;
+        padding: 24px;
+    }
+
+    .tag-item {
+        height: 30px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .cards h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .footer-contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contacts-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-logo {
+        width: 100px;
+    }
+
+    .footer-logo svg {
+        width: 100px;
+    }
+
+    .footer-menu-items{
+        gap: 16px;
+    }
+
+    .footer-menu-items a {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .footer-link-app svg {
+        width: 80px;
+    }
+
+    .footer-copyright {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .link-rules {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .link-rules li {
+        text-align: center;
+    }
+
+    .link-rules a {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .copyright-year p {
+        font-size: 10px;
+    }
+
+    .copyright-pay svg {
+        width: 40px;
+    }
+
+    .footer-desc {
+        font-size: 10px;
+    }
+
+    .main__wrapper {
+        padding: 32px 10px;
+    }
+    
+}
+
+/* Особые случаи для очень маленьких экранов */
+@media screen and (max-width: 360px) {
+
+    .main__wrapper {
+        padding: 32px 10px;
+    }
+    
+}
+
+/* Поддержка landscape ориентации на мобильных устройствах */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    
+}
+
+/* Улучшение читаемости на очень больших экранах */
+@media screen and (min-width: 1920px) {
+    
+}
